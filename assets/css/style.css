@@ -71,9 +71,11 @@ a {
 .d-flex {
   display: flex;
 }
-.flex-wrap{
+
+.flex-wrap {
   flex-wrap: wrap;
 }
+
 .align-center {
   align-items: center;
 }
@@ -134,6 +136,14 @@ a {
   margin-right: 15px;
 }
 
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
 .cover-150 {
   background-size: cover;
   background-position: center;
@@ -172,9 +182,18 @@ a {
   font-size: 18px;
 }
 
+.font-28 {
+  font-size: 28px !important;
+  line-height: 32px !important;
+}
+
 .fw-500 {
   font-weight: 500;
   color: var(--balck-color);
+}
+
+.white-color {
+  color: var(--white-color);
 }
 
 /* Common Css End Here */
@@ -187,6 +206,10 @@ a {
   border: none;
   margin-right: 10px;
   font-weight: 600;
+}
+
+.menu li a {
+  display: inline-block;
 }
 
 .button.active {
@@ -284,7 +307,8 @@ a {
 
 .bbc-news-left,
 .bbc-news-right {
-  flex-basis: 580px;
+  flex-basis: 585px;
+  padding: 0 5px;
 }
 
 /* More News  */
@@ -301,7 +325,145 @@ a {
 .single-more-news-left .newest-news-middel {
   flex-basis: 670px;
 }
+
 .single-content {
   flex-basis: 230px;
   padding: 10px;
+}
+
+/* Video News   */
+.video-news-area {
+  color: var(--white-color);
+  background: #141618;
+}
+
+.single-video-new a {
+  color: var(--white-color);
+}
+
+.single-video-new .newest-news-single-img {
+  position: relative;
+}
+
+.single-video-new .newest-news-single-img i {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  font-size: 25px;
+  margin: 0;
+}
+
+.single-video-new,
+.single-news-letter {
+  flex-basis: 292px;
+  padding: 5px;
+}
+
+/* Culture  */
+.culture-news .bbc-news-left,
+.science-news .bbc-news-left {
+  flex-basis: 900px;
+}
+
+.culture-news .bbc-news-right,
+.science-news .bbc-news-right {
+  flex-basis: 270px;
+}
+
+.cultur-btn {
+  padding: 10px 17px;
+  text-transform: capitalize;
+  border: 1px solid var(--balck-color);
+  font-size: 17px;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.cultur-btn:hover {
+  background: var(--balck-color);
+  color: var(--white-color);
+}
+
+/* All News Section  */
+.single-news {
+  flex-basis: 272px;
+  padding: 15px;
+  margin: 0 10px;
+}
+
+/* Brain section  */
+.brain-news-area {
+  background: var(--balck-color);
+  color: var(--white-color);
+}
+
+.brain-news-area a {
+  color: var(--white-color);
+}
+
+.brain-news .bbc-news-left {
+  flex-basis: 900px;
+}
+
+.brain-news .bbc-news-right {
+  flex-basis: 270px;
+}
+
+
+
+/* Style the select element */
+select {
+  width: 200px;
+  padding: 8px 12px;
+  font-size: 16px;
+  color: var(--text-color);
+  background-color: var(--white-color);
+  border: 1px solid var(--gray-color);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+select:focus {
+  outline: none;
+
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.nav-bar ul li a:hover {
+  background: var(--gray-color);
+  border-radius: 3px;
+}
+
+.social-icon li a {
+  padding: 5px;
+  font-size: 18px;
+  transition: .3s;
+}
+
+.social-icon li a:hover {
+  border: 1px solid var(--hover-color);
+  color: var(--balck-color);
+}
+
+.bbcnews-policy li a:hover {
+  text-decoration: underline;
+  color: var(--balck-color);
+}
+
+.back-button a {
+  padding: 10px;
+  border: 1px solid var(--text-color);
+  font-size: 20px;
+  color: var(--balck-color);
+}
+
+.back-button a:hover {
+  border: 1px solid var(--hover-color);
 }
