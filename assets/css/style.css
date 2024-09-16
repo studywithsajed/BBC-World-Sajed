@@ -30,6 +30,7 @@ Index====:
   --balck-color: #0D0D0D;
   --gray-color: #e1e2e2;
   --red-color: #EA2027;
+  --balck-red:#b80000;
 }
 
 /* Color Variable  End Here*/
@@ -473,7 +474,7 @@ label {
   font-size: 40px;
   line-height: 52px;
   text-transform: capitalize;
-  color: #b80000;
+  color: var(--balck-red);
 }
 .cover-312 {
   background-size: cover;
