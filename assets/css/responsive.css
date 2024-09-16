@@ -229,4 +229,9 @@
   .nav-bar ul li {
     margin: 21px 0;
   }
+
+  /* news page  */
+  .cover-312 {
+    height: 150px;
+  }
 }
