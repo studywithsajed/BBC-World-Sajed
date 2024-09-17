@@ -30,7 +30,7 @@ Index====:
   --balck-color: #0D0D0D;
   --gray-color: #e1e2e2;
   --red-color: #EA2027;
-  --balck-red:#b80000;
+  --balck-red: #b80000;
 }
 
 /* Color Variable  End Here*/
@@ -154,13 +154,19 @@ a {
 .cover-50 {
   background-size: cover;
   background-position: center;
-  height: 50vh;
+  height: 266px;
 }
 
 .cover-100 {
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 312px;
+}
+
+.cover-545 {
+  background-size: cover;
+  background-position: center;
+  height: 545px;
 }
 
 .border-top {
@@ -200,6 +206,13 @@ a {
 /* Common Css End Here */
 
 /* Header Css START Here */
+.headers-area {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: var(--white-color);
+  z-index: 999;
+}
 
 .header-top-registration .button {
   padding: 6px;
@@ -228,6 +241,9 @@ a {
 }
 
 /* Header Css End Here */
+.newest-news-area {
+  margin-top: 100px;
+}
 
 .newest-news-left,
 .newest-news-right {
@@ -247,6 +263,11 @@ a {
 
 .heading-bold a span {
   color: var(--red-color);
+  display: inline-block;
+}
+
+.newsletter-area {
+  margin-top: 107px;
 }
 
 .newest-single-content img,
@@ -259,6 +280,14 @@ a {
   line-height: 22px;
   font-weight: 500;
   color: var(--balck-color);
+}
+
+.newest-news-middel span {
+  display: block;
+}
+
+.newest-news-middel span a:hover {
+  text-decoration: underline;
 }
 
 .news-heading-small a:hover,
@@ -476,8 +505,77 @@ label {
   text-transform: capitalize;
   color: var(--balck-red);
 }
+
 .cover-312 {
   background-size: cover;
   background-position: center;
   height: 312px;
+}
+
+.cover-188 {
+  background-size: cover;
+  background-position: center;
+  height: 188px;
+}
+
+.newest-content {
+  flex-basis: 620px;
+}
+
+.newest-news-single-img {
+  flex-basis: 350px;
+}
+
+
+.business-single-content {
+  margin-bottom: 15px;
+}
+
+/* pagination  */
+
+
+
+.pagination a {
+  margin: 5px;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: var(--balck-color);
+  border-radius: 5px;
+  background: var(--gray-color);
+  display: inline-block;
+}
+
+.pagination a:hover {
+  background-color: var(--hover-color);
+  color: var(--white-color);
+}
+
+.pagination .active {
+  background-color: var(--hover-color);
+  color: var(--white-color);
+}
+
+
+.banner-content {
+  position: absolute;
+  bottom: 0;
+  background: var(--white-color);
+  width: 400px;
+  height: 250px;
+  padding: 38px;
+  border-bottom: 3px solid var(--balck-red);
+  border-right: 3px solid var(--hover-color);
+}
+
+.banner-content a {
+  font-size: 38px;
+  line-height: 42px;
+  color: var(--balck-color);
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.banner-content a:hover{
+  text-decoration: underline;
 }
