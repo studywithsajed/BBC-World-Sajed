@@ -61,6 +61,10 @@
     width: 750px;
   }
 
+  .navbar {
+    display: none;
+  }
+
   .newest-news-left {
     flex-basis: 250px;
   }
@@ -163,6 +167,15 @@
   .container {
     width: 100%;
     padding: 0 15px;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .menubar {
+    width: 100%;
+
   }
 
   .header-top-registration {

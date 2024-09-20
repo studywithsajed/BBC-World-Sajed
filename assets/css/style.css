@@ -579,3 +579,84 @@ label {
 .banner-content a:hover{
   text-decoration: underline;
 }
+
+/* toggle menu  */
+
+.mobile-navbar-btn {
+  z-index: 999;
+  margin-left: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  color: var(--balck-color);
+}
+
+.cross-btn {
+  display: none;
+}
+.header-top {
+  position: relative;
+}
+
+.menubar {
+  position: absolute;
+  width: 350px;
+  top: 40px;
+  left: 0;
+  background: var(--white-color);
+  padding: 20px 5px;
+  transform: translateX(-100%);
+  transition: all 0.5s linear;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  overflow-y: scroll;
+}
+.menubar-link{
+  display: block;
+  padding: 10px 5px;
+  color:var(--balck-color);
+  font-weight: 600;
+}
+.menubar-link:hover{
+background: #ddd;
+}
+.active .menubar{
+  transform: translateX(0);
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+.active .mobile-navbar-btn .cross-btn {
+  display: block;
+}
+
+.active .mobile-navbar-btn .bars-btn {
+  display: none;
+}
+.active .mobile-navbar-btn .search-btn {
+  display: none;
+}
+
+.menubar form {
+  border: 2px solid #ddd;
+  display: flex;
+}
+
+.menubar form input {
+  width: 100%;
+  border: none;
+ outline: none;
+}
+
+.menubar form .search-btn {
+  border: none;
+  background: var(--balck-color);
+  color: var(--white-color);
+  padding: 10px;
+}
+.menubar form:hover {
+  border:2px solid #333;
+} 
+.menubar form:hover .search-btn {
+  background: #333;
+}

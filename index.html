@@ -14,34 +14,45 @@
 </head>
 
 <body>
+
   <!-- Header Start Here  -->
   <div class="headers-area">
-    <div class="header-top-area pt-10 pb-10">
-      <div class="header-top d-flex justify-between flex-wrap">
-        <div class="header-top-togoleBar ms-15">
-          <span>
-            <a href="#">
-              <i class="fa-solid fa-bars"></i>
-            </a>
-          </span>
-          <span class="ms-15">
-            <a href="#">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </a>
-          </span>
-        </div>
-        <div class="header-top-logo">
-          <img src="assets/img/logo/logo-bbc.png" alt="bbc logo">
-        </div>
-        <div class="header-top-registration me-15">
-          <button type="button" class="button active">register</button>
-          <button type="button" class="button">sign in</button>
-        </div>
+    <div class="header-top  d-flex justify-between flex-wrap pt-10 ">
+      <div class="mobile-navbar-btn">
+        <i class="fa-solid fa-bars mobail-nav-icon bars-btn"></i>
+        <i class="fa-solid fa-xmark mobail-nav-icon cross-btn"></i>
+        <i class="fa-solid fa-magnifying-glass ms-15 search-btn"></i>
+      </div>
+      <div class="menubar">
+        <form action="#">
+          <input type="text" placeholder="Search..." name="query" class="search-input">
+          <button type="submit" class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <ul class="menubar-list">
+          <li><a class="menubar-link" href="index.html">home</a></li>
+          <li><a class="menubar-link" href="news.html">news</a></li>
+          <li><a class="menubar-link" href="#">sport</a></li>
+          <li><a class="menubar-link" href="business.html">business</a></li>
+          <li><a class="menubar-link" href="innovation.html">innovation</a></li>
+          <li><a class="menubar-link" href="travel.html">travel</a></li>
+          <li><a class="menubar-link" href="#">earth</a></li>
+          <li><a class="menubar-link" href="#">video</a></li>
+          <li><a class="menubar-link" href="#">live</a></li>
+        </ul>
+      </div>
+
+      <div class="header-top-logo">
+        <img src="assets/img/logo/logo-bbc.png" alt="bbc logo">
+      </div>
+      <div class="header-top-registration ">
+        <button type="button" class="button active">register</button>
+        <button type="button" class="button">sign in</button>
       </div>
     </div>
+
     <header class="header-area border">
       <div class="container">
-        <nav>
+        <nav class="navbar">
           <ul class="menu d-flex justify-around flex-wrap pt-10 pb-10">
             <li><a href="index.html" class="fw-500 text-capitalize padding">home</a></li>
             <li><a href="news.html" class="fw-500 text-capitalize padding">news</a></li>
@@ -58,1146 +69,1170 @@
     </header>
   </div>
   <!-- Header End Here  -->
-  <!-- newest news Start Here  -->
-  <div class="newest-news-area pb-80">
-    <div class="container">
-      <div class="newest-news d-flex justify-between flex-wrap">
-        <div class="newest-news-left">
-          <div class="newest-single-content pt-10 pb-10">
-            <div class="newest-news-single-img cover-150" style="background-image: url('assets/img/sea-img.jpg.webp');">
+
+  <!-- Main Area Start Here  -->
+  <main class="main-area">
+    <!-- newest news Start Here  -->
+    <div class="newest-news-area pb-80">
+      <div class="container">
+        <div class="newest-news d-flex justify-between flex-wrap">
+          <div class="newest-news-left">
+            <div class="newest-single-content pt-10 pb-10">
+              <div class="newest-news-single-img cover-150"
+                style="background-image: url('assets/img/sea-img.jpg.webp');">
+              </div>
+              <div class="news-heading-small">
+                <a href="#">Eight dead after Channel crossing attempt</a>
+              </div>
+              <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
             </div>
-            <div class="news-heading-small">
-              <a href="#">Eight dead after Channel crossing attempt</a>
-            </div>
-            <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-10 pb-10">
-            <div class="newest-news-single-img cover-150"
-              style="background-image: url('assets/img/man-us&canada.jpg.webp');">
-            </div>
-            <div class="news-heading-small">
-              <a href="#">Vance doubles down on false 'pet-eating' claims</a>
-            </div>
-            <p>The baseless claims targeting Haitian immigrants have led to several security threats in the town of
-              Springfield, Ohio.
-            </p>
-            <div>
-              <span>57 mins ago</span>
-              <span>us & canada</span>
-            </div>
-          </div>
-        </div>
-        <div class="newest-news-middel padding">
-          <div class="newest-news-single-img cover-50"
-            style="background-image: url('assets/img/old-woman-flood.jpg.webp');">
-          </div>
-          <div class="heading-bold pb-10">
-            <a href="#"><span><i class="fa-regular fa-circle-play"></i>live</span> 'Catastrophic' floods sweep through
-              Central Europe, leaving seven dead and others missing</a>
-          </div>
-          <p>Authorities say a man has been detained after Secret Service agents spotted a rifle in the bushes at
-            Trump's Florida golf course.
-          </p>
-          <span><a href="#" class="fw-500 text-capitalize"><i class="fa-solid fa-play pt-40 me-15 "></i>What we know
-              about
-              the Trump attack and the
-              suspect</a>
-          </span>
-          <span>
-            <a href="#" class="fw-500 text-capitalize">
-              <i class="fa-solid fa-play pt-40 me-15 "></i>Ros Atkins
-              on…the
-              apparent Trump assassination
-              attempt</a>
-          </span>
-          <span>
-            <a href="#" class="fw-500 text-capitalize">
-              <i class="fa-solid fa-play pt-40 me-15 "></i>
-              Sheriffdescribes moment suspect spotted at Trump golf course
-            </a>
-          </span>
-        </div>
-        <div class="newest-news-right">
-          <div class="newest-single-content pt-10 pb-10">
-            <div class="news-heading-small">
-              <a href="#">Vance doubles down on false 'pet-eating' claims</a>
-            </div>
-            <p>The baseless claims targeting Haitian immigrants have led to several security threats in the town of
-              Springfield, Ohio.
-            </p>
-            <div>
-              <span>57 mins ago</span>
-              <span>us & canada</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-10 pb-10">
-            <div class="news-heading-small">
-              <a href="#">Vance doubles down on false 'pet-eating' claims</a>
-            </div>
-            <p>The baseless claims targeting Haitian immigrants have led to several security threats in the town of
-              Springfield, Ohio.
-            </p>
-            <div>
-              <span>57 mins ago</span>
-              <span>us & canada</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-10 pb-10">
-            <div class="news-heading-small">
-              <a href="#">Vance doubles down on false 'pet-eating' claims</a>
-            </div>
-            <p>The baseless claims targeting Haitian immigrants have led to several security threats in the town of
-              Springfield, Ohio.
-            </p>
-            <div>
-              <span>57 mins ago</span>
-              <span>us & canada</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-10 pb-10">
-            <div class="news-heading-small">
-              <a href="#">Vance doubles down on false 'pet-eating' claims</a>
-            </div>
-            <p>The baseless claims targeting Haitian immigrants have led to several security threats in the town of
-              Springfield, Ohio.
-            </p>
-            <div>
-              <span>57 mins ago</span>
-              <span>us & canada</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- newest news End Here  -->
-  <!-- Only For BBC News Start Here -->
-  <div class="bbc-news-area pb-80 pt-80">
-    <div class="container border-top pt-10">
-      <a href="#" class="fw-500 font-18 text-capitalize">only from the BBC</a>
-      <div class="bbc-news d-flex justify-between flex-wrap pt-40">
-        <div class="bbc-news-left">
-          <div class="newest-single-content pt-10 pb-10">
-            <div class="newest-news-single-img cover-50" style="background-image: url('assets/img/emmy.jpg.webp');">
-            </div>
-            <div class="news-heading-small">
-              <a href="#">Why people are celebrating the Emmys' big upset</a>
-            </div>
-            <p>Last night's biggest shock came when this HBO show about a veteran stand-up comic starring Jean Smart
-              took best comedy over The Bear. Was it a victory for genuinely funny comedy? </p>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-        </div>
-        <div class="bbc-news-right">
-          <div class="newest-single-content pt-10 pb-10">
-            <div class="newest-news-single-img cover-50"
-              style="background-image: url('assets/img/astronuts.jpg.webp');">
-            </div>
-            <div class="news-heading-small">
-              <a href="#">Astronauts reveal what life is like on ISS – and how they deal with 'space smell'</a>
-            </div>
-            <p>As Suni Williams and Butch Wilmore spend months longer than planned on ISS, three astronauts tell us what
-              life is like in orbit.
-            </p>
-            <div>
-              <span>17 hrs ago</span>
-              <span>science & environment</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Only For BBC News  End Here-->
-  <!-- Newsletter   Start Here-->
-  <div class="newsletter-area border-news pt-40 pb-40">
-    <div class="container">
-      <div class="newsletter-img text-center">
-        <img src="assets/img/newsletter.jpeg" alt="">
-      </div>
-    </div>
-  </div>
-  <!-- Newsletter    End Here-->
-  <!-- More News    Start Here-->
-  <div class="more-new-area pt-80 pb-40">
-    <div class="container border-top pt-10">
-      <a href="#" class="fw-500 font-18 text-capitalize">more news<i class="fa-solid fa-chevron-right"></i></a>
-      <div class="more-news d-flex justify-between pt-40 flex-wrap">
-        <div class="single-more-news-left d-flex justify-between flex-wrap">
-          <div class="newest-single-content pt-10 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <p>Bebinca has forced thousands to evacuate and grounded all flights in the city's two main airports. </p>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
+            <div class="newest-single-content pt-10 pb-10">
+              <div class="newest-news-single-img cover-150"
+                style="background-image: url('assets/img/man-us&canada.jpg.webp');">
+              </div>
+              <div class="news-heading-small">
+                <a href="#">Vance doubles down on false 'pet-eating' claims</a>
+              </div>
+              <p>The baseless claims targeting Haitian immigrants have led to several security threats in the town of
+                Springfield, Ohio.
+              </p>
+              <div>
+                <span>57 mins ago</span>
+                <span>us & canada</span>
+              </div>
             </div>
           </div>
           <div class="newest-news-middel padding">
             <div class="newest-news-single-img cover-50"
-              style="background-image: url('assets/img/umbrella-man.jpg.webp');">
+              style="background-image: url('assets/img/old-woman-flood.jpg.webp');">
             </div>
+            <div class="heading-bold pb-10">
+              <a href="#"><span><i class="fa-regular fa-circle-play"></i>live</span> 'Catastrophic' floods sweep through
+                Central Europe, leaving seven dead and others missing</a>
+            </div>
+            <p>Authorities say a man has been detained after Secret Service agents spotted a rifle in the bushes at
+              Trump's Florida golf course.
+            </p>
+            <span><a href="#" class="fw-500 text-capitalize"><i class="fa-solid fa-play pt-40 me-15 "></i>What we know
+                about
+                the Trump attack and the
+                suspect</a>
+            </span>
+            <span>
+              <a href="#" class="fw-500 text-capitalize">
+                <i class="fa-solid fa-play pt-40 me-15 "></i>Ros Atkins
+                on…the
+                apparent Trump assassination
+                attempt</a>
+            </span>
+            <span>
+              <a href="#" class="fw-500 text-capitalize">
+                <i class="fa-solid fa-play pt-40 me-15 "></i>
+                Sheriffdescribes moment suspect spotted at Trump golf course
+              </a>
+            </span>
           </div>
-          <div class="more-news-content d-flex justify-between flex-wrap">
-            <div class="single-content">
-              <div class="newest-single-content pt-10 pb-10">
-                <div class="newest-news-single-img cover-150"
-                  style="background-image: url('assets/img/emmy.jpg.webp');">
-                </div>
-                <div class="news-heading-small">
-                  <a href="#">Eight dead after Channel crossing attempt</a>
-                </div>
-                <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
-                <div>
-                  <span>5 hrs ago</span>
-                  <span>europe</span>
-                </div>
+          <div class="newest-news-right">
+            <div class="newest-single-content pt-10 pb-10">
+              <div class="news-heading-small">
+                <a href="#">Vance doubles down on false 'pet-eating' claims</a>
+              </div>
+              <p>The baseless claims targeting Haitian immigrants have led to several security threats in the town of
+                Springfield, Ohio.
+              </p>
+              <div>
+                <span>57 mins ago</span>
+                <span>us & canada</span>
               </div>
             </div>
-            <div class="single-content">
-              <div class="newest-single-content pt-10 pb-10">
-                <div class="newest-news-single-img cover-150"
-                  style="background-image: url('assets/img/kashmir-vote.jpg.webp');">
-                </div>
-                <div class="news-heading-small">
-                  <a href="#">Eight dead after Channel crossing attempt</a>
-                </div>
-                <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
-                <div>
-                  <span>5 hrs ago</span>
-                  <span>europe</span>
-                </div>
+            <div class="newest-single-content pt-10 pb-10">
+              <div class="news-heading-small">
+                <a href="#">Vance doubles down on false 'pet-eating' claims</a>
+              </div>
+              <p>The baseless claims targeting Haitian immigrants have led to several security threats in the town of
+                Springfield, Ohio.
+              </p>
+              <div>
+                <span>57 mins ago</span>
+                <span>us & canada</span>
               </div>
             </div>
-            <div class="single-content">
-              <div class="newest-single-content pt-10 pb-10">
-                <div class="newest-news-single-img cover-150"
-                  style="background-image: url('assets/img/donal-trump.jpg.webp');">
-                </div>
-                <div class="news-heading-small">
-                  <a href="#">Eight dead after Channel crossing attempt</a>
-                </div>
-                <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
-                <div>
-                  <span>5 hrs ago</span>
-                  <span>europe</span>
-                </div>
+            <div class="newest-single-content pt-10 pb-10">
+              <div class="news-heading-small">
+                <a href="#">Vance doubles down on false 'pet-eating' claims</a>
+              </div>
+              <p>The baseless claims targeting Haitian immigrants have led to several security threats in the town of
+                Springfield, Ohio.
+              </p>
+              <div>
+                <span>57 mins ago</span>
+                <span>us & canada</span>
               </div>
             </div>
-            <div class="single-content">
-              <div class="newest-single-content pt-10 pb-10">
-                <div class="newest-news-single-img cover-150"
-                  style="background-image: url('assets/img/camla-heris.png.webp');">
-                </div>
-                <div class="news-heading-small">
-                  <a href="#">Eight dead after Channel crossing attempt</a>
-                </div>
-                <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
-                <div>
-                  <span>5 hrs ago</span>
-                  <span>europe</span>
-                </div>
+            <div class="newest-single-content pt-10 pb-10">
+              <div class="news-heading-small">
+                <a href="#">Vance doubles down on false 'pet-eating' claims</a>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="single-more-news-right">
-          <div class="newest-single-content pt-10">
-            <div class="newest-news-single-img cover-150" style="background-image: url('assets/img/brain.jpg.webp');">
-            </div>
-            <div class="news-heading-small">
-              <a href="#">Eight dead after Channel crossing attempt</a>
-            </div>
-            <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-10">
-            <div class="news-heading-small">
-              <a href="#">Eight dead after Channel crossing attempt</a>
-            </div>
-            <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-10">
-            <div class="news-heading-small">
-              <a href="#">Eight dead after Channel crossing attempt</a>
-            </div>
-            <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
+              <p>The baseless claims targeting Haitian immigrants have led to several security threats in the town of
+                Springfield, Ohio.
+              </p>
+              <div>
+                <span>57 mins ago</span>
+                <span>us & canada</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- More News End Here-->
-  <!-- video News End Here-->
-  <div class="video-news-area pt-40 pb-40">
-    <div class="container border-top pt-40">
-      <a href="#" class="fw-500 font-18 text-capitalize pb-40 white-color">most wacth<i
-          class="fa-solid fa-play ms-15"></i></a>
-      <div class="video-news d-flex justify-between flex-wrap ">
-        <div class="single-video-new">
-          <div class="newest-single-content pt-10">
-            <div class="newest-news-single-img cover-150 " style="background-image: url('assets/img/brain.jpg.webp');">
-              <a href="#"><i class="fa-regular fa-circle-play"></i></a>
-            </div>
-            <div class="news-heading-small pt-10">
-              <a href="#">Eight dead after Channel crossing attempt</a>
-            </div>
-            <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-        </div>
-        <div class="single-video-new">
-          <div class="newest-single-content pt-10">
-            <div class="newest-news-single-img cover-150 "
-              style="background-image: url('assets/img/astronuts.jpg.webp');">
-              <a href="#"><i class="fa-regular fa-circle-play"></i></a>
-            </div>
-            <div class="news-heading-small pt-10">
-              <a href="#">Eight dead after Channel crossing attempt</a>
-            </div>
-            <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
+    <!-- newest news End Here  -->
+    <!-- Only For BBC News Start Here -->
+    <div class="bbc-news-area pb-80 pt-80">
+      <div class="container border-top pt-10">
+        <a href="#" class="fw-500 font-18 text-capitalize">only from the BBC</a>
+        <div class="bbc-news d-flex justify-between flex-wrap pt-40">
+          <div class="bbc-news-left">
+            <div class="newest-single-content pt-10 pb-10">
+              <div class="newest-news-single-img cover-50" style="background-image: url('assets/img/emmy.jpg.webp');">
+              </div>
+              <div class="news-heading-small">
+                <a href="#">Why people are celebrating the Emmys' big upset</a>
+              </div>
+              <p>Last night's biggest shock came when this HBO show about a veteran stand-up comic starring Jean Smart
+                took best comedy over The Bear. Was it a victory for genuinely funny comedy? </p>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="single-video-new">
-          <div class="newest-single-content pt-10">
-            <div class="newest-news-single-img cover-150 " style="background-image: url('assets/img/emmy.jpg.webp');">
-              <a href="#"><i class="fa-regular fa-circle-play"></i></a>
-            </div>
-            <div class="news-heading-small pt-10">
-              <a href="#">Eight dead after Channel crossing attempt</a>
-            </div>
-            <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-        </div>
-        <div class="single-video-new">
-          <div class="newest-single-content pt-10">
-            <div class="newest-news-single-img cover-150 "
-              style="background-image: url('assets/img/american-football.jpg.webp');">
-              <a href="#"><i class="fa-regular fa-circle-play"></i></a>
-            </div>
-            <div class="news-heading-small pt-10">
-              <a href="#">Eight dead after Channel crossing attempt</a>
-            </div>
-            <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
+          <div class="bbc-news-right">
+            <div class="newest-single-content pt-10 pb-10">
+              <div class="newest-news-single-img cover-50"
+                style="background-image: url('assets/img/astronuts.jpg.webp');">
+              </div>
+              <div class="news-heading-small">
+                <a href="#">Astronauts reveal what life is like on ISS – and how they deal with 'space smell'</a>
+              </div>
+              <p>As Suni Williams and Butch Wilmore spend months longer than planned on ISS, three astronauts tell us
+                what
+                life is like in orbit.
+              </p>
+              <div>
+                <span>17 hrs ago</span>
+                <span>science & environment</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Video News End Here-->
-  <!-- Newsletter   Start Here-->
-  <div class="newsletter-area border-news pt-40 pb-40">
-    <div class="container">
-      <div class="newsletter-img text-center">
-        <img src="assets/img/football-newsletter.jpeg" alt="">
+    <!-- Only For BBC News  End Here-->
+    <!-- Newsletter   Start Here-->
+    <div class="newsletter-area border-news pt-40 pb-40">
+      <div class="container">
+        <div class="newsletter-img text-center">
+          <img src="assets/img/newsletter.jpeg" alt="">
+        </div>
       </div>
     </div>
-  </div>
-  <!-- Newsletter    End Here-->
+    <!-- Newsletter    End Here-->
+    <!-- More News    Start Here-->
+    <div class="more-new-area pt-80 pb-40">
+      <div class="container border-top pt-10">
+        <a href="#" class="fw-500 font-18 text-capitalize">more news<i class="fa-solid fa-chevron-right"></i></a>
+        <div class="more-news d-flex justify-between pt-40 flex-wrap">
+          <div class="single-more-news-left d-flex justify-between flex-wrap">
+            <div class="newest-single-content pt-10 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <p>Bebinca has forced thousands to evacuate and grounded all flights in the city's two main airports. </p>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-news-middel padding">
+              <div class="newest-news-single-img cover-50"
+                style="background-image: url('assets/img/umbrella-man.jpg.webp');">
+              </div>
+            </div>
+            <div class="more-news-content d-flex justify-between flex-wrap">
+              <div class="single-content">
+                <div class="newest-single-content pt-10 pb-10">
+                  <div class="newest-news-single-img cover-150"
+                    style="background-image: url('assets/img/emmy.jpg.webp');">
+                  </div>
+                  <div class="news-heading-small">
+                    <a href="#">Eight dead after Channel crossing attempt</a>
+                  </div>
+                  <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
+                  <div>
+                    <span>5 hrs ago</span>
+                    <span>europe</span>
+                  </div>
+                </div>
+              </div>
+              <div class="single-content">
+                <div class="newest-single-content pt-10 pb-10">
+                  <div class="newest-news-single-img cover-150"
+                    style="background-image: url('assets/img/kashmir-vote.jpg.webp');">
+                  </div>
+                  <div class="news-heading-small">
+                    <a href="#">Eight dead after Channel crossing attempt</a>
+                  </div>
+                  <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
+                  <div>
+                    <span>5 hrs ago</span>
+                    <span>europe</span>
+                  </div>
+                </div>
+              </div>
+              <div class="single-content">
+                <div class="newest-single-content pt-10 pb-10">
+                  <div class="newest-news-single-img cover-150"
+                    style="background-image: url('assets/img/donal-trump.jpg.webp');">
+                  </div>
+                  <div class="news-heading-small">
+                    <a href="#">Eight dead after Channel crossing attempt</a>
+                  </div>
+                  <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
+                  <div>
+                    <span>5 hrs ago</span>
+                    <span>europe</span>
+                  </div>
+                </div>
+              </div>
+              <div class="single-content">
+                <div class="newest-single-content pt-10 pb-10">
+                  <div class="newest-news-single-img cover-150"
+                    style="background-image: url('assets/img/camla-heris.png.webp');">
+                  </div>
+                  <div class="news-heading-small">
+                    <a href="#">Eight dead after Channel crossing attempt</a>
+                  </div>
+                  <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
+                  <div>
+                    <span>5 hrs ago</span>
+                    <span>europe</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="single-more-news-right">
+            <div class="newest-single-content pt-10">
+              <div class="newest-news-single-img cover-150" style="background-image: url('assets/img/brain.jpg.webp');">
+              </div>
+              <div class="news-heading-small">
+                <a href="#">Eight dead after Channel crossing attempt</a>
+              </div>
+              <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-10">
+              <div class="news-heading-small">
+                <a href="#">Eight dead after Channel crossing attempt</a>
+              </div>
+              <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-10">
+              <div class="news-heading-small">
+                <a href="#">Eight dead after Channel crossing attempt</a>
+              </div>
+              <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- More News End Here-->
+    <!-- video News End Here-->
+    <div class="video-news-area pt-40 pb-40">
+      <div class="container border-top pt-40">
+        <a href="#" class="fw-500 font-18 text-capitalize pb-40 white-color">most wacth<i
+            class="fa-solid fa-play ms-15"></i></a>
+        <div class="video-news d-flex justify-between flex-wrap ">
+          <div class="single-video-new">
+            <div class="newest-single-content pt-10">
+              <div class="newest-news-single-img cover-150 "
+                style="background-image: url('assets/img/brain.jpg.webp');">
+                <a href="#"><i class="fa-regular fa-circle-play"></i></a>
+              </div>
+              <div class="news-heading-small pt-10">
+                <a href="#">Eight dead after Channel crossing attempt</a>
+              </div>
+              <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+          </div>
+          <div class="single-video-new">
+            <div class="newest-single-content pt-10">
+              <div class="newest-news-single-img cover-150 "
+                style="background-image: url('assets/img/astronuts.jpg.webp');">
+                <a href="#"><i class="fa-regular fa-circle-play"></i></a>
+              </div>
+              <div class="news-heading-small pt-10">
+                <a href="#">Eight dead after Channel crossing attempt</a>
+              </div>
+              <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+          </div>
+          <div class="single-video-new">
+            <div class="newest-single-content pt-10">
+              <div class="newest-news-single-img cover-150 " style="background-image: url('assets/img/emmy.jpg.webp');">
+                <a href="#"><i class="fa-regular fa-circle-play"></i></a>
+              </div>
+              <div class="news-heading-small pt-10">
+                <a href="#">Eight dead after Channel crossing attempt</a>
+              </div>
+              <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+          </div>
+          <div class="single-video-new">
+            <div class="newest-single-content pt-10">
+              <div class="newest-news-single-img cover-150 "
+                style="background-image: url('assets/img/american-football.jpg.webp');">
+                <a href="#"><i class="fa-regular fa-circle-play"></i></a>
+              </div>
+              <div class="news-heading-small pt-10">
+                <a href="#">Eight dead after Channel crossing attempt</a>
+              </div>
+              <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Video News End Here-->
 
-  <!-- Culture News Start Here -->
-  <div class="culture-news-area pb-80 pt-80">
-    <div class="container border-top pt-10">
-      <a href="#" class="fw-500 font-18 text-capitalize">culture<i class="fa-solid fa-chevron-right ms-15"></i></a>
-      <div class="culture-news d-flex justify-between flex-wrap pt-40 align-center">
-        <div class="bbc-news-left">
-          <div class="newest-single-content pt-10 pb-10">
-            <div class="newest-news-single-img cover-100" style="background-image: url('assets/img/cultur.jpg.webp');">
-            </div>
-          </div>
-        </div>
-        <div class="bbc-news-right ">
-          <div class="newest-single-content  padding">
-            <div class="news-heading-small ">
-              <a href="#" class="font-28">Astronauts reveal what life is like on ISS '</a>
-            </div>
-            <p>As Suni Williams and Butch Wilmore spend months longer than planned on ISS, three astronauts tell us
-              what
-              life is like in orbit.
-            </p>
-            <button type="button" class="cultur-btn ">see more</button>
-          </div>
+    <!-- Newsletter   Start Here-->
+    <div class="newsletter-area border-news pt-40 pb-40">
+      <div class="container">
+        <div class="newsletter-img text-center">
+          <img src="assets/img/football-newsletter.jpeg" alt="">
         </div>
       </div>
     </div>
-  </div>
-  <!-- Culture News  End Here-->
+    <!-- Newsletter    End Here-->
 
-  <!-- Science News Start Here -->
-  <div class="science-news-area pb-80 pt-80">
-    <div class="container border-top pt-10">
-      <a href="#" class="fw-500 font-18 text-capitalize">Science & Health<i
-          class="fa-solid fa-chevron-right ms-15"></i></a>
-      <div class="science-news d-flex justify-between flex-wrap align-center pt-40">
-        <div class="bbc-news-right ">
-          <div class="newest-single-content  padding">
-            <div class="news-heading-small">
-              <a href="#" class="font-28">A hidden kingdom of viruses lives in your gut</a>
-            </div>
-            <p>As Suni Williams and Butch Wilmore spend months longer than planned on ISS, three astronauts tell us
-              what
-              life is like in orbit.
-            </p>
-            <button type="button" class="cultur-btn ">see more</button>
-          </div>
-        </div>
-        <div class="bbc-news-left">
-          <div class="newest-single-content pt-10 pb-10">
-            <div class="newest-news-single-img cover-100" style="background-image: url('assets/img/virus.jpg.webp');">
+    <!-- Culture News Start Here -->
+    <div class="culture-news-area pb-80 pt-80">
+      <div class="container border-top pt-10">
+        <a href="#" class="fw-500 font-18 text-capitalize">culture<i class="fa-solid fa-chevron-right ms-15"></i></a>
+        <div class="culture-news d-flex justify-between flex-wrap pt-40 align-center">
+          <div class="bbc-news-left">
+            <div class="newest-single-content pt-10 pb-10">
+              <div class="newest-news-single-img cover-100"
+                style="background-image: url('assets/img/cultur.jpg.webp');">
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Science News  End Here-->
-  <!-- Us Election News Start Here -->
-  <div class="election-news-area pb-80 pt-80">
-    <div class="container border-top pt-10">
-      <a href="#" class="fw-500 font-18 text-capitalize">us election<i class="fa-solid fa-chevron-right ms-15"></i></a>
-      <div class="election-news d-flex justify-between flex-wrap pt-40">
-        <div class="bbc-news-left">
-          <div class="newest-single-content  pb-10">
-            <div class="newest-news-single-img cover-50"
-              style="background-image: url('assets/img/donal-trump.jpg.webp');">
-            </div>
-            <div class="news-heading-small">
-              <a href="#">Trump repeats baseless claim about Haitian immigrants eating pets </a>
-            </div>
-            <p>Donald Trump claimed immigrants in a small Ohio city were eating pets, but there’s no proof of this.
-            </p>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-        </div>
-        <div class="bbc-news-right">
-          <div class="newest-single-content  pb-10">
-            <div class="newest-news-single-img cover-50"
-              style="background-image: url('assets/img/camla-heris.png.webp');">
-            </div>
-            <div class="news-heading-small">
-              <a href="#">US election polls: Who is ahead - Harris or Trump?'</a>
-            </div>
-            <p>An in-depth look at the polls and what they can and can’t tell us about who will win the White House.
-            </p>
-            <div>
-              <span>17 hrs ago</span>
-              <span>science & environment</span>
+          <div class="bbc-news-right ">
+            <div class="newest-single-content  padding">
+              <div class="news-heading-small ">
+                <a href="#" class="font-28">Astronauts reveal what life is like on ISS '</a>
+              </div>
+              <p>As Suni Williams and Butch Wilmore spend months longer than planned on ISS, three astronauts tell us
+                what
+                life is like in orbit.
+              </p>
+              <button type="button" class="cultur-btn ">see more</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!--Us Election News  End Here-->
-  <!-- Newsletter   Start Here-->
-  <div class="newsletter-area border-news pt-40 pb-40">
-    <div class="container">
-      <div class="newsletter-img text-center">
-        <img src="assets/img/techpng.png" alt="">
-      </div>
-    </div>
-  </div>
-  <!-- Newsletter  End Here-->
-  <!-- All News section Start Here -->
-  <div class="all-news-area pt-80 pb-80">
-    <div class="container">
-      <div class="all-news d-flex justify-between flex-wrap">
-        <div class="single-news border-top">
-          <span class="fw-500 font-18 text-capitalize ">news</span>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="newest-news-single-img cover-150"
-              style="background-image: url('assets/img/african-army.jpg.webp');">
-            </div>
-            <div class="news-heading-small">
-              <a href="#">Junta-led West African states to launch new passport</a>
-            </div>
-            <p>The Magistrates’ Association’s chief executive said the powers will help with the courts' "log jam".</p>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-        </div>
-        <div class="single-news border-top">
-          <span class="fw-500 font-18 text-capitalize ">sport</span>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="newest-news-single-img cover-150"
-              style="background-image: url('assets/img/american-football.jpg.webp');">
-            </div>
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <p>The Magistrates’ Association’s chief executive said the powers will help with the courts' "log jam".</p>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-        </div>
-        <div class="single-news border-top">
-          <span class="fw-500 font-18 text-capitalize ">business</span>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="newest-news-single-img cover-150"
-              style="background-image: url('assets/img/apple-logo.jpg.webp');">
-            </div>
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <p>The Magistrates’ Association’s chief executive said the powers will help with the courts' "log jam".</p>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-        </div>
-        <div class="single-news border-top">
-          <span class="fw-500 font-18 text-capitalize ">innovation</span>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="newest-news-single-img cover-150"
-              style="background-image: url('assets/img/teenager-robot.jpg.webp');">
-            </div>
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <p>The Magistrates’ Association’s chief executive said the powers will help with the courts' "log jam".</p>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- All News section End Here -->
-  <!-- Brain News Start Here -->
-  <div class="brain-news-area pb-80 pt-80">
-    <div class="container border-top pt-10">
-      <a href="#" class="fw-500 font-18 text-capitalize">wacth<i class="fa-solid fa-circle-play ms-15"></i></a>
-      <div class="brain-news d-flex justify-between flex-wrap pt-40 align-center">
-        <div class="bbc-news-left">
-          <div class="newest-single-content pt-10 pb-10">
-            <div class="newest-news-single-img cover-100" style="background-image: url('assets/img/brain.jpg.webp');">
-            </div>
-          </div>
-        </div>
-        <div class="bbc-news-right">
-          <div class="newest-single-content  padding">
-            <div class="news-heading-small ">
-              <a href="#" class="font-28 text-capitalize">how to protect your brain frome ageing'</a>
-            </div>
-            <p>As Suni Williams and Butch Wilmore spend months longer than planned on ISS, three astronauts tell us
-              what
-              life is like in orbit.
-            </p>
-            <button type="button" class="cultur-btn ">see more</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Brain News  End Here-->
-  <!-- Newsletter   Start Here-->
-  <div class="newsletter-area border-news pt-40 pb-40">
-    <div class="container">
-      <div class="newsletter-img text-center">
-        <img src="assets/img/royel-wacth.jpeg" alt="">
-      </div>
-    </div>
-  </div>
-  <!-- Newsletter    End Here-->
-  <!-- All News section Start Here -->
-  <div class="all-news-area pt-80 pb-80">
-    <div class="container">
-      <div class="all-news d-flex justify-between flex-wrap">
-        <div class="single-news border-top">
-          <span class="fw-500 font-18 text-capitalize ">culture</span>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="newest-news-single-img cover-150"
-              style="background-image: url('assets/img/aunt-lucky.jpg.webp');">
-            </div>
-            <div class="news-heading-small">
-              <a href="#">Junta-led West African states to launch new passport</a>
-            </div>
-            <p>The Magistrates’ Association’s chief executive said the powers will help with the courts' "log jam".</p>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-        </div>
-        <div class="single-news border-top">
-          <span class="fw-500 font-18 text-capitalize ">travel</span>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="newest-news-single-img cover-150"
-              style="background-image: url('assets/img/american-football.jpg.webp');">
-            </div>
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <p>The Magistrates’ Association’s chief executive said the powers will help with the courts' "log jam".</p>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-        </div>
-        <div class="single-news border-top">
-          <span class="fw-500 font-18 text-capitalize ">Earth</span>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="newest-news-single-img cover-150" style="background-image: url('assets/img/earth.jpg.webp');">
-            </div>
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <p>The Magistrates’ Association’s chief executive said the powers will help with the courts' "log jam".</p>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-        </div>
-        <div class="single-news border-top">
-          <span class="fw-500 font-18 text-capitalize ">World of Wonder</span>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="newest-news-single-img cover-150"
-              style="background-image: url('assets/img/earth-spectacular.jpg.webp');">
-            </div>
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <p>The Magistrates’ Association’s chief executive said the powers will help with the courts' "log jam".</p>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- All News section End Here -->
-  <!-- Newsletter   Start Here-->
-  <div class="news-letter-news-area pt-40 pb-40">
-    <div class="container border-top pt-40">
-      <a href="#" class="fw-500 font-18 text-capitalize pb-40 ">Sign up for our newsletters</a>
-      <div class="news-letters d-flex justify-between flex-wrap">
-        <div class="single-news-letter">
-          <div class="newest-single-content pt-10">
-            <div class="newest-news-single-img cover-150 "
-              style="background-image: url('assets/img/world-business.jpg.webp');">
-            </div>
-            <div class="news-heading-small pt-10">
-              <a href="#">Eight dead after Channel crossing attempt</a>
-            </div>
-            <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-        </div>
-        <div class="single-news-letter">
-          <div class="newest-single-content pt-10">
-            <div class="newest-news-single-img cover-150 "
-              style="background-image: url('assets/img/white-house.jpg.webp');">
-            </div>
-            <div class="news-heading-small pt-10">
-              <a href="#">Eight dead after Channel crossing attempt</a>
-            </div>
-            <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-        </div>
-        <div class="single-news-letter">
-          <div class="newest-single-content pt-10">
-            <div class="newest-news-single-img cover-150 "
-              style="background-image: url('assets/img/essential-list.jpg.jpeg');">
-            </div>
-            <div class="news-heading-small pt-10">
-              <a href="#">Eight dead after Channel crossing attempt</a>
-            </div>
-            <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-        </div>
-        <div class="single-news-letter">
-          <div class="newest-single-content pt-10">
-            <div class="newest-news-single-img cover-150 "
-              style="background-image: url('assets/img/news-briefing.jpg.webp');">
-            </div>
-            <div class="news-heading-small pt-10">
-              <a href="#">Eight dead after Channel crossing attempt</a>
-            </div>
-            <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Newsletter   Start Here-->
-  <div class="newsletter-area border-news pt-40 pb-40">
-    <div class="container">
-      <div class="newsletter-img text-center">
-        <img src="assets/img/future-earth.png" alt="">
-      </div>
-    </div>
-  </div>
-  <!-- Newsletter    End Here-->
-  <!-- All News section Start Here -->
-  <div class="all-news-area pt-80 pb-80">
-    <div class="container">
-      <div class="all-news d-flex justify-between flex-wrap">
-        <div class="single-news border-top">
-          <span class="fw-500 font-18 text-capitalize ">Latest on the US election</span>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="newest-news-single-img cover-150"
-              style="background-image: url('assets/img/us-election.jpg.webp');">
-            </div>
-            <div class="news-heading-small">
-              <a href="#">Junta-led West African states to launch new passport</a>
-            </div>
-            <p>The Magistrates’ Association’s chief executive said the powers will help with the courts' "log jam".</p>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-        </div>
-        <div class="single-news border-top">
-          <span class="fw-500 font-18 text-capitalize ">Latest on the Israel-Gaza war</span>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="newest-news-single-img cover-150"
-              style="background-image: url('assets/img/plaestine.jpg.webp');">
-            </div>
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <p>The Magistrates’ Association’s chief executive said the powers will help with the courts' "log jam".</p>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-        </div>
-        <div class="single-news border-top">
-          <span class="fw-500 font-18 text-capitalize ">Latest on the Ukraine war</span>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="newest-news-single-img cover-150" style="background-image: url('assets/img/putin.jpg.webp');">
-            </div>
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <p>The Magistrates’ Association’s chief executive said the powers will help with the courts' "log jam".</p>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-        </div>
-        <div class="single-news border-top">
-          <span class="fw-500 font-18 text-capitalize ">BBC InDepth</span>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-          <div class="newest-single-content pt-40 pb-10 ">
-            <div class="newest-news-single-img cover-150" style="background-image: url('assets/img/stephen.png.webp');">
-            </div>
-            <div class="news-heading-small">
-              <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
-            </div>
-            <p>The Magistrates’ Association’s chief executive said the powers will help with the courts' "log jam".</p>
-            <div>
-              <span>5 hrs ago</span>
-              <span>europe</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- All News section End Here -->
+    <!-- Culture News  End Here-->
 
-  <!-- Pagination Start Here   -->
-  <div class="container text-center pb-40">
-    <div class="pagination padding">
-      <a href="#" class="prev">« Previous</a>
-      <a href="#" class="page active">1</a>
-      <a href="#" class="page">2</a>
-      <a href="#" class="page">3</a>
-      <a href="#" class="page">4</a>
-      <a href="#" class="next">Next »</a>
+    <!-- Science News Start Here -->
+    <div class="science-news-area pb-80 pt-80">
+      <div class="container border-top pt-10">
+        <a href="#" class="fw-500 font-18 text-capitalize">Science & Health<i
+            class="fa-solid fa-chevron-right ms-15"></i></a>
+        <div class="science-news d-flex justify-between flex-wrap align-center pt-40">
+          <div class="bbc-news-right ">
+            <div class="newest-single-content  padding">
+              <div class="news-heading-small">
+                <a href="#" class="font-28">A hidden kingdom of viruses lives in your gut</a>
+              </div>
+              <p>As Suni Williams and Butch Wilmore spend months longer than planned on ISS, three astronauts tell us
+                what
+                life is like in orbit.
+              </p>
+              <button type="button" class="cultur-btn ">see more</button>
+            </div>
+          </div>
+          <div class="bbc-news-left">
+            <div class="newest-single-content pt-10 pb-10">
+              <div class="newest-news-single-img cover-100" style="background-image: url('assets/img/virus.jpg.webp');">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <!-- Pagination Start Here   -->
+    <!-- Science News  End Here-->
+    <!-- Us Election News Start Here -->
+    <div class="election-news-area pb-80 pt-80">
+      <div class="container border-top pt-10">
+        <a href="#" class="fw-500 font-18 text-capitalize">us election<i
+            class="fa-solid fa-chevron-right ms-15"></i></a>
+        <div class="election-news d-flex justify-between flex-wrap pt-40">
+          <div class="bbc-news-left">
+            <div class="newest-single-content  pb-10">
+              <div class="newest-news-single-img cover-50"
+                style="background-image: url('assets/img/donal-trump.jpg.webp');">
+              </div>
+              <div class="news-heading-small">
+                <a href="#">Trump repeats baseless claim about Haitian immigrants eating pets </a>
+              </div>
+              <p>Donald Trump claimed immigrants in a small Ohio city were eating pets, but there’s no proof of this.
+              </p>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+          </div>
+          <div class="bbc-news-right">
+            <div class="newest-single-content  pb-10">
+              <div class="newest-news-single-img cover-50"
+                style="background-image: url('assets/img/camla-heris.png.webp');">
+              </div>
+              <div class="news-heading-small">
+                <a href="#">US election polls: Who is ahead - Harris or Trump?'</a>
+              </div>
+              <p>An in-depth look at the polls and what they can and can’t tell us about who will win the White House.
+              </p>
+              <div>
+                <span>17 hrs ago</span>
+                <span>science & environment</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Us Election News  End Here-->
+    <!-- Newsletter   Start Here-->
+    <div class="newsletter-area border-news pt-40 pb-40">
+      <div class="container">
+        <div class="newsletter-img text-center">
+          <img src="assets/img/techpng.png" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- Newsletter  End Here-->
+    <!-- All News section Start Here -->
+    <div class="all-news-area pt-80 pb-80">
+      <div class="container">
+        <div class="all-news d-flex justify-between flex-wrap">
+          <div class="single-news border-top">
+            <span class="fw-500 font-18 text-capitalize ">news</span>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="newest-news-single-img cover-150"
+                style="background-image: url('assets/img/african-army.jpg.webp');">
+              </div>
+              <div class="news-heading-small">
+                <a href="#">Junta-led West African states to launch new passport</a>
+              </div>
+              <p>The Magistrates’ Association’s chief executive said the powers will help with the courts' "log jam".
+              </p>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+          </div>
+          <div class="single-news border-top">
+            <span class="fw-500 font-18 text-capitalize ">sport</span>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="newest-news-single-img cover-150"
+                style="background-image: url('assets/img/american-football.jpg.webp');">
+              </div>
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <p>The Magistrates’ Association’s chief executive said the powers will help with the courts' "log jam".
+              </p>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+          </div>
+          <div class="single-news border-top">
+            <span class="fw-500 font-18 text-capitalize ">business</span>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="newest-news-single-img cover-150"
+                style="background-image: url('assets/img/apple-logo.jpg.webp');">
+              </div>
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <p>The Magistrates’ Association’s chief executive said the powers will help with the courts' "log jam".
+              </p>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+          </div>
+          <div class="single-news border-top">
+            <span class="fw-500 font-18 text-capitalize ">innovation</span>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="newest-news-single-img cover-150"
+                style="background-image: url('assets/img/teenager-robot.jpg.webp');">
+              </div>
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <p>The Magistrates’ Association’s chief executive said the powers will help with the courts' "log jam".
+              </p>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- All News section End Here -->
+    <!-- Brain News Start Here -->
+    <div class="brain-news-area pb-80 pt-80">
+      <div class="container border-top pt-10">
+        <a href="#" class="fw-500 font-18 text-capitalize">wacth<i class="fa-solid fa-circle-play ms-15"></i></a>
+        <div class="brain-news d-flex justify-between flex-wrap pt-40 align-center">
+          <div class="bbc-news-left">
+            <div class="newest-single-content pt-10 pb-10">
+              <div class="newest-news-single-img cover-100" style="background-image: url('assets/img/brain.jpg.webp');">
+              </div>
+            </div>
+          </div>
+          <div class="bbc-news-right">
+            <div class="newest-single-content  padding">
+              <div class="news-heading-small ">
+                <a href="#" class="font-28 text-capitalize">how to protect your brain frome ageing'</a>
+              </div>
+              <p>As Suni Williams and Butch Wilmore spend months longer than planned on ISS, three astronauts tell us
+                what
+                life is like in orbit.
+              </p>
+              <button type="button" class="cultur-btn ">see more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Brain News  End Here-->
+    <!-- Newsletter   Start Here-->
+    <div class="newsletter-area border-news pt-40 pb-40">
+      <div class="container">
+        <div class="newsletter-img text-center">
+          <img src="assets/img/royel-wacth.jpeg" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- Newsletter    End Here-->
+    <!-- All News section Start Here -->
+    <div class="all-news-area pt-80 pb-80">
+      <div class="container">
+        <div class="all-news d-flex justify-between flex-wrap">
+          <div class="single-news border-top">
+            <span class="fw-500 font-18 text-capitalize ">culture</span>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="newest-news-single-img cover-150"
+                style="background-image: url('assets/img/aunt-lucky.jpg.webp');">
+              </div>
+              <div class="news-heading-small">
+                <a href="#">Junta-led West African states to launch new passport</a>
+              </div>
+              <p>The Magistrates’ Association’s chief executive said the powers will help with the courts' "log jam".
+              </p>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+          </div>
+          <div class="single-news border-top">
+            <span class="fw-500 font-18 text-capitalize ">travel</span>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="newest-news-single-img cover-150"
+                style="background-image: url('assets/img/american-football.jpg.webp');">
+              </div>
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <p>The Magistrates’ Association’s chief executive said the powers will help with the courts' "log jam".
+              </p>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+          </div>
+          <div class="single-news border-top">
+            <span class="fw-500 font-18 text-capitalize ">Earth</span>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="newest-news-single-img cover-150" style="background-image: url('assets/img/earth.jpg.webp');">
+              </div>
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <p>The Magistrates’ Association’s chief executive said the powers will help with the courts' "log jam".
+              </p>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+          </div>
+          <div class="single-news border-top">
+            <span class="fw-500 font-18 text-capitalize ">World of Wonder</span>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="newest-news-single-img cover-150"
+                style="background-image: url('assets/img/earth-spectacular.jpg.webp');">
+              </div>
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <p>The Magistrates’ Association’s chief executive said the powers will help with the courts' "log jam".
+              </p>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- All News section End Here -->
+    <!-- Newsletter   Start Here-->
+    <div class="news-letter-news-area pt-40 pb-40">
+      <div class="container border-top pt-40">
+        <a href="#" class="fw-500 font-18 text-capitalize pb-40 ">Sign up for our newsletters</a>
+        <div class="news-letters d-flex justify-between flex-wrap">
+          <div class="single-news-letter">
+            <div class="newest-single-content pt-10">
+              <div class="newest-news-single-img cover-150 "
+                style="background-image: url('assets/img/world-business.jpg.webp');">
+              </div>
+              <div class="news-heading-small pt-10">
+                <a href="#">Eight dead after Channel crossing attempt</a>
+              </div>
+              <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+          </div>
+          <div class="single-news-letter">
+            <div class="newest-single-content pt-10">
+              <div class="newest-news-single-img cover-150 "
+                style="background-image: url('assets/img/white-house.jpg.webp');">
+              </div>
+              <div class="news-heading-small pt-10">
+                <a href="#">Eight dead after Channel crossing attempt</a>
+              </div>
+              <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+          </div>
+          <div class="single-news-letter">
+            <div class="newest-single-content pt-10">
+              <div class="newest-news-single-img cover-150 "
+                style="background-image: url('assets/img/essential-list.jpg.jpeg');">
+              </div>
+              <div class="news-heading-small pt-10">
+                <a href="#">Eight dead after Channel crossing attempt</a>
+              </div>
+              <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+          </div>
+          <div class="single-news-letter">
+            <div class="newest-single-content pt-10">
+              <div class="newest-news-single-img cover-150 "
+                style="background-image: url('assets/img/news-briefing.jpg.webp');">
+              </div>
+              <div class="news-heading-small pt-10">
+                <a href="#">Eight dead after Channel crossing attempt</a>
+              </div>
+              <p>The Home Office says 801 people crossed the Channel on Saturday. </p>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Newsletter   Start Here-->
+    <div class="newsletter-area border-news pt-40 pb-40">
+      <div class="container">
+        <div class="newsletter-img text-center">
+          <img src="assets/img/future-earth.png" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- Newsletter    End Here-->
+    <!-- All News section Start Here -->
+    <div class="all-news-area pt-80 pb-80">
+      <div class="container">
+        <div class="all-news d-flex justify-between flex-wrap">
+          <div class="single-news border-top">
+            <span class="fw-500 font-18 text-capitalize ">Latest on the US election</span>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="newest-news-single-img cover-150"
+                style="background-image: url('assets/img/us-election.jpg.webp');">
+              </div>
+              <div class="news-heading-small">
+                <a href="#">Junta-led West African states to launch new passport</a>
+              </div>
+              <p>The Magistrates’ Association’s chief executive said the powers will help with the courts' "log jam".
+              </p>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+          </div>
+          <div class="single-news border-top">
+            <span class="fw-500 font-18 text-capitalize ">Latest on the Israel-Gaza war</span>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="newest-news-single-img cover-150"
+                style="background-image: url('assets/img/plaestine.jpg.webp');">
+              </div>
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <p>The Magistrates’ Association’s chief executive said the powers will help with the courts' "log jam".
+              </p>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+          </div>
+          <div class="single-news border-top">
+            <span class="fw-500 font-18 text-capitalize ">Latest on the Ukraine war</span>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="newest-news-single-img cover-150" style="background-image: url('assets/img/putin.jpg.webp');">
+              </div>
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <p>The Magistrates’ Association’s chief executive said the powers will help with the courts' "log jam".
+              </p>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+          </div>
+          <div class="single-news border-top">
+            <span class="fw-500 font-18 text-capitalize ">BBC InDepth</span>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+            <div class="newest-single-content pt-40 pb-10 ">
+              <div class="newest-news-single-img cover-150"
+                style="background-image: url('assets/img/stephen.png.webp');">
+              </div>
+              <div class="news-heading-small">
+                <a href="#">Shanghai hit by strongest typhoon in 75 years</a>
+              </div>
+              <p>The Magistrates’ Association’s chief executive said the powers will help with the courts' "log jam".
+              </p>
+              <div>
+                <span>5 hrs ago</span>
+                <span>europe</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- All News section End Here -->
+
+    <!-- Pagination Start Here   -->
+    <div class="container text-center pb-40">
+      <div class="pagination padding">
+        <a href="#" class="prev">« Previous</a>
+        <a href="#" class="page active">1</a>
+        <a href="#" class="page">2</a>
+        <a href="#" class="page">3</a>
+        <a href="#" class="page">4</a>
+        <a href="#" class="next">Next »</a>
+      </div>
+    </div>
+    <!-- Pagination Start Here   -->
+  </main>
+  <!-- Main Area End Here  -->
 
   <!-- Footer Area Start Here  -->
   <footer class="footer-area pt-40 pb-80 border-top">
@@ -1295,6 +1330,9 @@
     </div>
   </footer>
   <!-- Footer Area End Here  -->
+
+  <!-- Javascript  -->
+  <script src="assets/js/index.js"></script>
 </body>
 
 </html>

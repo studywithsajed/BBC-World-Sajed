@@ -16,32 +16,43 @@
 <body>
   <!-- Header Start Here  -->
   <div class="headers-area">
-    <div class="header-top-area pt-10 pb-10">
-      <div class="header-top d-flex justify-between flex-wrap">
-        <div class="header-top-togoleBar ms-15">
-          <span>
-            <a href="#">
-              <i class="fa-solid fa-bars"></i>
-            </a>
-          </span>
-          <span class="ms-15">
-            <a href="#">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </a>
-          </span>
-        </div>
-        <div class="header-top-logo">
-          <img src="assets/img/logo/logo-bbc.png" alt="bbc logo">
-        </div>
-        <div class="header-top-registration me-15">
-          <button type="button" class="button active">register</button>
-          <button type="button" class="button">sign in</button>
-        </div>
+
+    <div class="header-top  d-flex justify-between flex-wrap pt-10 ">
+      <div class="mobile-navbar-btn">
+        <i class="fa-solid fa-bars mobail-nav-icon bars-btn"></i>
+        <i class="fa-solid fa-xmark mobail-nav-icon cross-btn"></i>
+        <i class="fa-solid fa-magnifying-glass ms-15 search-btn"></i>
+      </div>
+      <div class="menubar">
+        <form action="#">
+          <input type="text" placeholder="Search..." name="query" class="search-input">
+          <button type="submit" class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <ul class="menubar-list">
+          <li><a class="menubar-link" href="index.html">home</a></li>
+          <li><a class="menubar-link" href="news.html">news</a></li>
+          <li><a class="menubar-link" href="#">sport</a></li>
+          <li><a class="menubar-link" href="business.html">business</a></li>
+          <li><a class="menubar-link" href="innovation.html">innovation</a></li>
+          <li><a class="menubar-link" href="travel.html">travel</a></li>
+          <li><a class="menubar-link" href="#">earth</a></li>
+          <li><a class="menubar-link" href="#">video</a></li>
+          <li><a class="menubar-link" href="#">live</a></li>
+        </ul>
+      </div>
+
+      <div class="header-top-logo">
+        <img src="assets/img/logo/logo-bbc.png" alt="bbc logo">
+      </div>
+      <div class="header-top-registration ">
+        <button type="button" class="button active">register</button>
+        <button type="button" class="button">sign in</button>
       </div>
     </div>
+
     <header class="header-area border">
       <div class="container">
-        <nav>
+        <nav class="navbar">
           <ul class="menu d-flex justify-around flex-wrap pt-10 pb-10">
             <li><a href="index.html" class="fw-500 text-capitalize padding">home</a></li>
             <li><a href="news.html" class="fw-500 text-capitalize padding">news</a></li>
@@ -833,6 +844,9 @@
     </div>
   </footer>
   <!-- Footer Area End Here  -->
+
+  <!-- Javascript  -->
+   <script src="assets/js/index.js"></script>
 </body>
 
 </html>
